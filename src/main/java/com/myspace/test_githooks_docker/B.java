@@ -6,12 +6,23 @@ package com.myspace.test_githooks_docker;
 
 public class B implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public B() {
-    }
+	private java.lang.String x;
 
+	public B() {
+	}
 
+	public java.lang.String getX() {
+		return this.x;
+	}
 
+	public void setX(java.lang.String x) {
+		this.x = x;
+	}
+
+	public B(java.lang.String x) {
+		this.x = x;
+	}
 
 }
